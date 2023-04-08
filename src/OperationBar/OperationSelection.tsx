@@ -150,6 +150,7 @@ const styles = StyleSheet.create({
     height: 80,
     width: "100%",
     backgroundColor: "#333",
+    justifyContent: "center"
   },
   opContainer: {
     height: "100%",
