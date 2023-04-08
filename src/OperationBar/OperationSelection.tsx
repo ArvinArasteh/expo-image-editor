@@ -115,19 +115,19 @@ export function OperationSelection() {
           )
         }
       </ScrollView>
-      {!isTransformOnly && !isAdjustmentOnly ? (
-        <View style={styles.modeRow}>
-          <TouchableOpacity
-            style={[
-              styles.modeButton,
-              selectedOperationGroup === "transform" && {
-                backgroundColor: "#333",
-              },
-            ]}
-            onPress={() => setSelectedOperationGroup("transform")}
-          >
-            <Icon iconID="transform" text="Edit" />
-          </TouchableOpacity>
+      {/*{!isTransformOnly && !isAdjustmentOnly ? (*/}
+      {/*  <View style={styles.modeRow}>*/}
+      {/*    <TouchableOpacity*/}
+      {/*      style={[*/}
+      {/*        styles.modeButton,*/}
+      {/*        selectedOperationGroup === "transform" && {*/}
+      {/*          backgroundColor: "#333",*/}
+      {/*        },*/}
+      {/*      ]}*/}
+      {/*      onPress={() => setSelectedOperationGroup("transform")}*/}
+      {/*    >*/}
+      {/*      <Icon iconID="transform" text="Edit" />*/}
+      {/*    </TouchableOpacity>*/}
           {/*<TouchableOpacity*/}
           {/*  style={[*/}
           {/*    styles.modeButton,*/}
@@ -139,8 +139,8 @@ export function OperationSelection() {
           {/*>*/}
           {/*  <Icon iconID="tune" text="Adjust" />*/}
           {/*</TouchableOpacity>*/}
-        </View>
-      ) : null}
+        {/*</View>*/}
+      {/*) : null}*/}
     </>
   );
 }
