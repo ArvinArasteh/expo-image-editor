@@ -99,7 +99,7 @@ export function OperationSelection() {
 
   return (
     <>
-      <ScrollView style={styles.opRow} horizontal>
+      <View style={styles.opRow}>
         {
           //@ts-ignore
           filteredOperations[selectedOperationGroup].map(
@@ -114,7 +114,7 @@ export function OperationSelection() {
             )
           )
         }
-      </ScrollView>
+      </View>
       {/*{!isTransformOnly && !isAdjustmentOnly ? (*/}
       {/*  <View style={styles.modeRow}>*/}
       {/*    <TouchableOpacity*/}
@@ -150,7 +150,8 @@ const styles = StyleSheet.create({
     height: 80,
     width: "100%",
     backgroundColor: "#333",
-    justifyContent: "center"
+    justifyContent: "space-around",
+    flexDirection: "row"
   },
   opContainer: {
     height: "100%",
