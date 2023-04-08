@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Animated, LayoutRectangle, StyleSheet, View } from "react-native";
+import {Animated, LayoutRectangle, StyleSheet, Text, View} from "react-native";
 import { editingModeState } from "../Store";
 import { useRecoilState } from "recoil";
 import { OperationSelection } from "./OperationSelection";
@@ -19,7 +19,7 @@ export function OperationBar() {
       case "rotate":
         return <Rotate />;
       case "blur":
-        return <Blur />;
+        return <Text >Nice</Text>;
       default:
         return null;
     }
