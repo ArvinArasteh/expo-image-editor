@@ -128,17 +128,17 @@ export function OperationSelection() {
           >
             <Icon iconID="transform" text="Transform" />
           </TouchableOpacity>
-          <TouchableOpacity
-            style={[
-              styles.modeButton,
-              selectedOperationGroup === "adjust" && {
-                backgroundColor: "#333",
-              },
-            ]}
-            onPress={() => setSelectedOperationGroup("adjust")}
-          >
-            <Icon iconID="tune" text="Adjust" />
-          </TouchableOpacity>
+          {/*<TouchableOpacity*/}
+          {/*  style={[*/}
+          {/*    styles.modeButton,*/}
+          {/*    selectedOperationGroup === "adjust" && {*/}
+          {/*      backgroundColor: "#333",*/}
+          {/*    },*/}
+          {/*  ]}*/}
+          {/*  onPress={() => setSelectedOperationGroup("adjust")}*/}
+          {/*>*/}
+          {/*  <Icon iconID="tune" text="Adjust" />*/}
+          {/*</TouchableOpacity>*/}
         </View>
       ) : null}
     </>
