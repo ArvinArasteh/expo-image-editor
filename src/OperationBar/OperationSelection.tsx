@@ -156,8 +156,7 @@ const styles = StyleSheet.create({
   opContainer: {
     height: "100%",
     justifyContent: "center",
-    alignItems: "center",
-    marginLeft: 16,
+    alignItems: "center"
   },
   modeRow: {
     height: 80,
