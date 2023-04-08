@@ -99,7 +99,7 @@ export function OperationSelection() {
 
   return (
     <>
-      <ScrollView style={styles.opRow} horizontal>
+      <ScrollView style={styles.opRow} contentContainerStyle={{justifyContent: "space-evenly"}} horizontal>
         {
           //@ts-ignore
           filteredOperations[selectedOperationGroup].map(
