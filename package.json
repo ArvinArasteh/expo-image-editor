@@ -44,7 +44,6 @@
     "expo-asset": "*",
     "expo-file-system": "*",
     "expo-gl": "*",
-    "expo-gl-cpp": "*",
     "expo-image-manipulator": "*",
     "react": "*",
     "react-native": "*"
@@ -61,8 +60,7 @@
     "babel-preset-expo": "~8.1.0",
     "expo-asset": "^8.1.7",
     "expo-file-system": "^9.2.0",
-    "expo-gl": "^9.1.1",
-    "expo-gl-cpp": "^9.1.2",
+    "expo-gl": "^12.4.0",
     "expo-image-picker": "^9.2.1",
     "expo-image-manipulator": "^9.2.2",
     "react": "^16.13.1",
